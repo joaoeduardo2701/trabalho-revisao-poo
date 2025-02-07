@@ -7,10 +7,10 @@ public class Student {
     public String nome;
     public List<Double> notas = new ArrayList<>();
 
-    public Student(String name, List<Double> scores)
+    public Student(String nome, List<Double> notas)
     {
-        this.nome = name;
-        this.notas = scores;
+        this.nome = nome;
+        this.notas = notas;
     }
 
     public double NotaFinal(){
