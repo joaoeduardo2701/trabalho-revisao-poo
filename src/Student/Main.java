@@ -10,19 +10,19 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         sc.useLocale(Locale.US);
 
-        String name = sc.nextLine();
+        String nome = sc.nextLine();
 
-        double score1 = sc.nextDouble();
-        double score2 = sc.nextDouble();
-        double score3 = sc.nextDouble();
+        double nota1 = sc.nextDouble();
+        double nota2 = sc.nextDouble();
+        double nota3 = sc.nextDouble();
 
         List<Double> scores = new ArrayList<>();
 
-        scores.add(score1);
-        scores.add(score2);
-        scores.add(score3);
+        scores.add(nota1);
+        scores.add(nota2);
+        scores.add(nota3);
 
-        Student student = new Student(name, scores);
+        Student student = new Student(nome, scores);
 
         System.out.printf("NOTA FINAL = %.2f\n", student.NotaFinal());
 
