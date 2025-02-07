@@ -5,9 +5,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
-        sc.useLocale(Locale.US); // Configura para aceitar números com "."
+        sc.useLocale(Locale.US);
 
         System.out.println("Entre com a largura e altura do retângulo: ");
 
